@@ -1,0 +1,33 @@
+name: ufo_2d
+description: 2D UFO game.
+
+version: 0.0.1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flame: ^0.18.1
+  rxdart: ^0.23.1
+  flutter:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/bg/background.png
+    - assets/images/bg/floor-8x8.png
+    - assets/images/static/diamond.png
+    - assets/images/static/medkit.png
+    - assets/images/static/wall-metal.png
+    - assets/images/static/blackhole.png
+    - assets/images/ufo.png
+    - assets/images/sprites/rocket-fire.png
+    - assets/images/sprites/explosion.png
+    - assets/audio/thrust.mp3
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: fonts/PressStart2P-Regular.ttf
